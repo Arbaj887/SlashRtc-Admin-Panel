@@ -88,7 +88,7 @@
             })
 
             const message=await result.json();
-            console.log(message)
+            
             const messagesDiv = document.getElementById('messages');
             message.messages.forEach((message,i)=>{
                 let messageElement = document.createElement('div');
